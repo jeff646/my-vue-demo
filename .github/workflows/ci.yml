@@ -3,7 +3,7 @@ name: Deploy to Cloudflare Pages Preview
 on:
   push:
     branches:
-      - main  # 仅当推送到 `preview` 分支时触发
+      - preview  # 仅当推送到 `preview` 分支时触发
 
 jobs:
   build:
